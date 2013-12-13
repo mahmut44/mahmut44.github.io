@@ -40,7 +40,7 @@
 <div id="liste"></div>
 <script type="text/javascript">
     var target_elt = $('#liste');
-    var url = "https://api.github.com/users/grahack/starred";
+    var url = "https://api.github.com/users/mahmut44/starred";
     var request = $.get(url, {}, function() {}, 'jsonp');
     request.done(function(data) {
         var ul = $('<ul/>').addClass('star-liste').appendTo(target_elt);
